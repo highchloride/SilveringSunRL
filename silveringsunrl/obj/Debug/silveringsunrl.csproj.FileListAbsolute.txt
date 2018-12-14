@@ -1,0 +1,14 @@
+F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\silveringsunrl\silveringsunrl\bin\Debug\terminal8x8.png
+F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\silveringsunrl\silveringsunrl\bin\Debug\silveringsunrl.exe.config
+F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\silveringsunrl\silveringsunrl\bin\Debug\silveringsunrl.exe
+F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\silveringsunrl\silveringsunrl\bin\Debug\silveringsunrl.pdb
+F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\silveringsunrl\silveringsunrl\bin\Debug\OpenTK.dll
+F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\silveringsunrl\silveringsunrl\bin\Debug\RLNET.dll
+F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\silveringsunrl\silveringsunrl\bin\Debug\RogueSharp.dll
+F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\silveringsunrl\silveringsunrl\bin\Debug\OpenTK.xml
+F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\silveringsunrl\silveringsunrl\bin\Debug\OpenTK.dll.config
+F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\silveringsunrl\silveringsunrl\obj\Debug\silveringsunrl.csprojAssemblyReference.cache
+F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\silveringsunrl\silveringsunrl\obj\Debug\silveringsunrl.csproj.CoreCompileInputs.cache
+F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\silveringsunrl\silveringsunrl\obj\Debug\silveringsunrl.csproj.CopyComplete
+F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\silveringsunrl\silveringsunrl\obj\Debug\silveringsunrl.exe
+F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\silveringsunrl\silveringsunrl\obj\Debug\silveringsunrl.pdb
