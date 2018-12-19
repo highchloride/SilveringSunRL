@@ -1,9 +1,6 @@
-﻿using SilveringSunRL.Interfaces;
-using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using SilveringSunRL.Interfaces;
 
 namespace SilveringSunRL.Systems
 {
@@ -12,27 +9,22 @@ namespace SilveringSunRL.Systems
         private int _time;
         private readonly SortedDictionary<int, List<IScheduleable>> _scheduleables;
 
-        //Constructor
         public SchedulingSystem()
         {
             _time = 0;
             _scheduleables = new SortedDictionary<int, List<IScheduleable>>();
         }
 
-        //Add a new object to the schedule
-        //Place it at current time plus the object's Time property
-        public void Add(IScheduleable scheduleable)
+        public void Add(IScheduleable actor)
         {
-            int key = _time + scheduleable.Time;
-            if(!_scheduleables.ContainsKey(key))
+            int key = _time + actor.Time;
+            if (!_scheduleables.ContainsKey(key))
             {
                 _scheduleables.Add(key, new List<IScheduleable>());
             }
-
-            _scheduleables[key].Add(scheduleable);
+            _scheduleables[key].Add(actor);
         }
 
-        //Remove specified object from the schedule
         public void Remove(IScheduleable scheduleable)
         {
             KeyValuePair<int, List<IScheduleable>> scheduleableListFound = new KeyValuePair<int, List<IScheduleable>>(-1, null);
@@ -45,17 +37,16 @@ namespace SilveringSunRL.Systems
                     break;
                 }
             }
-            if(scheduleableListFound.Value != null)
+            if (scheduleableListFound.Value != null)
             {
                 scheduleableListFound.Value.Remove(scheduleable);
-                if(scheduleableListFound.Value.Count <= 0)
+                if (scheduleableListFound.Value.Count <= 0)
                 {
                     _scheduleables.Remove(scheduleableListFound.Key);
                 }
             }
         }
 
-        //Get the next scheduled object and advance time if necessary
         public IScheduleable Get()
         {
             var firstScheduleableGroup = _scheduleables.First();
@@ -65,13 +56,11 @@ namespace SilveringSunRL.Systems
             return firstScheduleable;
         }
 
-        //Get the current time
         public int GetTime()
         {
             return _time;
         }
 
-        //Clear the schedule
         public void Clear()
         {
             _time = 0;

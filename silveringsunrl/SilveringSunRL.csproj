@@ -4,14 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D8FE74AE-0585-475C-9CB6-87F801C1AFE2}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{1C8180E0-3AB3-4427-88F1-29C0E38D504B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
     <RootNamespace>SilveringSunRL</RootNamespace>
-    <AssemblyName>silveringsunrl</AssemblyName>
+    <AssemblyName>SilveringSunRL</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -32,56 +34,104 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>SilveringSunRL.GameLoop</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
-    <Reference Include="OpenTK, Version=1.1.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL">
-      <HintPath>packages\OpenTK.1.1.1589.5942\lib\NET40\OpenTK.dll</HintPath>
+    <None Include="App.config" />
+    <None Include="C64.font">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Cheepicus12.font">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="IBM.font">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="IBM_ext.font" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MonoGame.Framework, Version=3.7.1.189, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\MonoGame.Framework.DesktopGL.3.7.1.189\lib\net45\MonoGame.Framework.dll</HintPath>
     </Reference>
-    <Reference Include="RLNET, Version=1.0.6.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\RLNET.1.0.6\lib\RLNET.dll</HintPath>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Priority Queue, Version=4.1.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\OptimizedPriorityQueue.4.1.1\lib\net45\Priority Queue.dll</HintPath>
     </Reference>
     <Reference Include="RogueSharp, Version=4.1.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\RogueSharp.4.1.0\lib\net40\RogueSharp.dll</HintPath>
     </Reference>
+    <Reference Include="SadConsole, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\SadConsole.7.2.0\lib\net\SadConsole.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Net.Http" />
-    <Reference Include="System.Xml" />
+    <Reference Include="Troschuetz.Random, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2f204b7110a52060, processorArchitecture=MSIL">
+      <HintPath>packages\Troschuetz.Random.4.3.0\lib\net461\Troschuetz.Random.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Behaviors\StandardMoveAndAttack.cs" />
-    <Compile Include="Core\Actor.cs" />
+    <Content Include="Cheepicus_12x12.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="IBM8x16.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="IBM8x16_NoPadding_extended.png" />
+    <Content Include="sad.png" />
+    <Content Include="SDL2.dll" />
+    <Content Include="Yayo_c64.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Commands\CommandManager.cs" />
+    <Compile Include="Commands\SplitOoze.cs" />
+    <Compile Include="Commands\StandardMoveAndAttack.cs" />
     <Compile Include="Core\Colors.cs" />
-    <Compile Include="Core\Direction.cs" />
-    <Compile Include="Core\Door.cs" />
-    <Compile Include="Core\DungeonMap.cs" />
-    <Compile Include="Core\Monster.cs" />
-    <Compile Include="Core\Player.cs" />
-    <Compile Include="Core\Stairs.cs" />
-    <Compile Include="Core\Swatch.cs" />
-    <Compile Include="Game.cs" />
+    <Compile Include="Core\Equipment.cs" />
+    <Compile Include="Equipment\BodyEquipment.cs" />
+    <Compile Include="Equipment\FeetEquipment.cs" />
+    <Compile Include="Equipment\HandEquipment.cs" />
+    <Compile Include="Equipment\HeadEquipment.cs" />
     <Compile Include="Interfaces\IActor.cs" />
     <Compile Include="Interfaces\IBehavior.cs" />
     <Compile Include="Interfaces\IDrawable.cs" />
+    <Compile Include="Interfaces\IEquipment.cs" />
     <Compile Include="Interfaces\IScheduleable.cs" />
-    <Compile Include="Monsters\Kobold.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Systems\CommandSystem.cs" />
-    <Compile Include="Systems\MapGenerator.cs" />
-    <Compile Include="Systems\MessageLog.cs" />
+    <Compile Include="Interfaces\ITreasure.cs" />
+    <Compile Include="MapObjects\Door.cs" />
+    <Compile Include="MapObjects\Gold.cs" />
+    <Compile Include="MapObjects\Stairs.cs" />
+    <Compile Include="MapObjects\TreasurePile.cs" />
+    <Compile Include="Entities\Actor.cs" />
+    <Compile Include="Entities\EntityManager.cs" />
+    <Compile Include="Entities\Monster.cs" />
+    <Compile Include="Entities\Player.cs" />
+    <Compile Include="MapObjects\DungeonMap.cs" />
+    <Compile Include="Monsters\Ooze.cs" />
+    <Compile Include="Screens\MessageLogWindow.cs" />
+    <Compile Include="Screens\SplashScreen.cs" />
+    <Compile Include="Screens\UIManager.cs" />
+    <Compile Include="Systems\Map.cs" />
+    <Compile Include="MapObjects\Floor.cs" />
+    <Compile Include="MapObjects\MapGenerator.cs" />
+    <Compile Include="MapObjects\TileBase.cs" />
+    <Compile Include="MapObjects\Wall.cs" />
+    <Compile Include="GameLoop.cs" />
+    <Compile Include="Screens\Dungeon.cs" />
     <Compile Include="Systems\SchedulingSystem.cs" />
+    <Compile Include="Systems\World.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="terminal8x8.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="packages\MonoGame.Framework.DesktopGL.3.7.1.189\build\MonoGame.Framework.DesktopGL.targets" Condition="Exists('packages\MonoGame.Framework.DesktopGL.3.7.1.189\build\MonoGame.Framework.DesktopGL.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\MonoGame.Framework.DesktopGL.3.7.1.189\build\MonoGame.Framework.DesktopGL.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\MonoGame.Framework.DesktopGL.3.7.1.189\build\MonoGame.Framework.DesktopGL.targets'))" />
+  </Target>
 </Project>

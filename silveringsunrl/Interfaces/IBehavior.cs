@@ -1,5 +1,5 @@
-﻿using SilveringSunRL.Core;
-using SilveringSunRL.Systems;
+﻿using SilveringSunRL.Commands;
+using SilveringSunRL.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +10,6 @@ namespace SilveringSunRL.Interfaces
 {
     public interface IBehavior
     {
-        bool Act(Monster monster, CommandSystem commandSystem);
+        bool Act(Monster monster, CommandManager commandManager);
     }
 }

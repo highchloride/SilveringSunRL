@@ -1,14 +1,26 @@
-F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\silveringsunrl\silveringsunrl\bin\Debug\terminal8x8.png
-F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\silveringsunrl\silveringsunrl\bin\Debug\silveringsunrl.exe.config
-F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\silveringsunrl\silveringsunrl\bin\Debug\silveringsunrl.exe
-F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\silveringsunrl\silveringsunrl\bin\Debug\silveringsunrl.pdb
-F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\silveringsunrl\silveringsunrl\bin\Debug\OpenTK.dll
-F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\silveringsunrl\silveringsunrl\bin\Debug\RLNET.dll
-F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\silveringsunrl\silveringsunrl\bin\Debug\RogueSharp.dll
-F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\silveringsunrl\silveringsunrl\bin\Debug\OpenTK.xml
-F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\silveringsunrl\silveringsunrl\bin\Debug\OpenTK.dll.config
-F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\silveringsunrl\silveringsunrl\obj\Debug\silveringsunrl.csprojAssemblyReference.cache
-F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\silveringsunrl\silveringsunrl\obj\Debug\silveringsunrl.csproj.CoreCompileInputs.cache
-F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\silveringsunrl\silveringsunrl\obj\Debug\silveringsunrl.csproj.CopyComplete
-F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\silveringsunrl\silveringsunrl\obj\Debug\silveringsunrl.exe
-F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\silveringsunrl\silveringsunrl\obj\Debug\silveringsunrl.pdb
+F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\SilveringSunRL-sadconsole\SilveringSunRL\bin\Debug\Cheepicus_12x12.png
+F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\SilveringSunRL-sadconsole\SilveringSunRL\bin\Debug\IBM8x16.png
+F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\SilveringSunRL-sadconsole\SilveringSunRL\bin\Debug\Yayo_c64.png
+F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\SilveringSunRL-sadconsole\SilveringSunRL\bin\Debug\C64.font
+F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\SilveringSunRL-sadconsole\SilveringSunRL\bin\Debug\Cheepicus12.font
+F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\SilveringSunRL-sadconsole\SilveringSunRL\bin\Debug\IBM.font
+F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\SilveringSunRL-sadconsole\SilveringSunRL\bin\Debug\SilveringSunRL.exe.config
+F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\SilveringSunRL-sadconsole\SilveringSunRL\bin\Debug\SilveringSunRL.exe
+F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\SilveringSunRL-sadconsole\SilveringSunRL\bin\Debug\SilveringSunRL.pdb
+F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\SilveringSunRL-sadconsole\SilveringSunRL\bin\Debug\MonoGame.Framework.dll
+F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\SilveringSunRL-sadconsole\SilveringSunRL\bin\Debug\Newtonsoft.Json.dll
+F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\SilveringSunRL-sadconsole\SilveringSunRL\bin\Debug\SadConsole.dll
+F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\SilveringSunRL-sadconsole\SilveringSunRL\bin\Debug\MonoGame.Framework.xml
+F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\SilveringSunRL-sadconsole\SilveringSunRL\bin\Debug\Newtonsoft.Json.xml
+F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\SilveringSunRL-sadconsole\SilveringSunRL\bin\Debug\SadConsole.xml
+F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\SilveringSunRL-sadconsole\SilveringSunRL\obj\Debug\SilveringSunRL.csproj.CoreCompileInputs.cache
+F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\SilveringSunRL-sadconsole\SilveringSunRL\obj\Debug\SilveringSunRL.csproj.CopyComplete
+F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\SilveringSunRL-sadconsole\SilveringSunRL\obj\Debug\SilveringSunRL.exe
+F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\SilveringSunRL-sadconsole\SilveringSunRL\obj\Debug\SilveringSunRL.pdb
+F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\SilveringSunRL-sadconsole\SilveringSunRL\obj\Debug\SilveringSunRL.csprojAssemblyReference.cache
+F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\SilveringSunRL-sadconsole\SilveringSunRL\bin\Debug\Priority Queue.dll
+F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\SilveringSunRL-sadconsole\SilveringSunRL\bin\Debug\Troschuetz.Random.dll
+F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\SilveringSunRL-sadconsole\SilveringSunRL\bin\Debug\Priority Queue.pdb
+F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\SilveringSunRL-sadconsole\SilveringSunRL\bin\Debug\Priority Queue.xml
+F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\SilveringSunRL-sadconsole\SilveringSunRL\bin\Debug\Troschuetz.Random.xml
+F:\Jerseyware Gaming\csharp Roguelike\SilveringSun\SilveringSunRL-sadconsole\SilveringSunRL\bin\Debug\RogueSharp.dll
