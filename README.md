@@ -1,10 +1,10 @@
 # Silvering Sun RL
 
-"The Silvering Sun" is a roguelike following this tutorial: https://roguesharp.wordpress.com/2016/02/20/roguesharp-v3-tutorial-introduction-and-goals/
+"The Silvering Sun" is a roguelike I cobbled together from a couple of tutorials. 
 
-Ok so I finished these tutorials and the rl works as described. That's neato. 
+It leverages RogueSharp and SadConsole.
 
-Now exploring SadConsole + Roguesharp as it looks like RLNET hasn't been updated in a while. Future commits will be based on SadConsoel rather than RLNET.
+At the moment, it's a bit of a mess. I'm merging the results of a few different tutorials into one cohesive, random-map-generating, SadConsole-powered RL. It doesn't display anything at the moment. 
 
 ### How to play
 
